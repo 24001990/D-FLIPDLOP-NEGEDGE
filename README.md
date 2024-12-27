@@ -28,17 +28,23 @@ Next state of D flip-flop is always equal to data input, D for every positive tr
 
 **Procedure**
 
-/* write all the steps invloved */
+D flip-flop operates with only positive clock transitions or negative clock transitions. Whereas, D latch operates with enable signal. That means, the output of D flip-flop is insensitive to the changes in the input, D except for active transition of the clock signal.
+
 
 **PROGRAM**
 
 /* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
 */
+![Screenshot 2024-12-27 183142](https://github.com/user-attachments/assets/dae15d8d-4b4f-4119-9563-7982a976f71a)
 
 **RTL LOGIC FOR FLIPFLOPS**
 
+![Screenshot 2024-12-27 181320](https://github.com/user-attachments/assets/3131d52d-80aa-4049-96d9-6df41045fe1d)
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
+![Screenshot 2024-12-27 181336](https://github.com/user-attachments/assets/0c9b74cf-62b1-41a4-8043-3839d95a75b8)
 
 
 **RESULTS**
+
+Implemented  D flip flop using verilog and validating their functionality using their functional tables
